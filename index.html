@@ -1,0 +1,40 @@
+
+
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Inscription Module</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            background-image: url("https://img.freepik.com/vecteurs-libre/fond-filaire-abstrait-gris_53876-99911.jpg?size=626&ext=jpg&ga=GA1.1.1413502914.1713398400&semt=ais");
+            background-size: cover;
+            background-position: center; 
+        }
+        .container {
+            background-color: rgba(255, 255, 255, 0.8); /* Ajoute une couleur de fond semi-transparente au conteneur pour améliorer la lisibilité */
+            padding: 20px; 
+            border-radius: 10px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h2>Inscription de nouveau module</h2>
+        <form action="action.php" method="post">
+            <div class="form-group">
+                <label for="name">Nom du Module:</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="type">Description:</label>
+                <input type="text" class="form-control" id="type" name="type" required>
+            </div>
+           <button type="submit" class="btn btn-primary">Ajouter</button>
+        </form>
+    </div>
+</body>
+</html>
+
